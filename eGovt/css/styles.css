@@ -1,0 +1,437 @@
+/* Universal CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top Navbar Section styling */
+
+/* Top navbar left part */
+
+.top-section {
+    background-color: #06163a;
+    height: auto;
+}
+
+.top-li {
+    color: #a1aabf;
+}
+
+.nav-left-section .detail-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-left-section .detail-section ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+.detail-section ul li {
+    margin: 10px;
+}
+
+.detail-section ul li a {
+    text-decoration: none;
+    font-size: 0.9375rem;
+}
+
+.nav-left-section .bi-clock,
+.bi-telephone-inbound {
+    color: red;
+}
+
+
+/* Top Navbar right part */
+
+.nav-right-section ul {
+    list-style-type: none;
+}
+
+.nav-right-section ul li {
+    margin: 10px;
+}
+
+.nav-right-section ul li a {
+    text-decoration: none;
+    font-size: 0.9375rem;
+
+}
+
+/* Navigation Bar */
+.navigation-bar a {
+    font-size: 1.063rem;
+}
+
+.navigation-bar .navbar-right button {
+    font-size: 1.063rem;
+    border-radius: 0px !important;
+}
+
+/* Carousel Section */
+.slide-1 {
+    top: 30%;
+}
+
+.slide-1 h1 {
+    font-size: 3.575rem;
+    font-weight: 700;
+    width: 60%;
+    margin-left: -10%;
+}
+
+.slide-1 p {
+    font-size: 1.175rem;
+    font-weight: 500;
+    width: 70%;
+    margin-left: -10%;
+}
+
+.slide-1 button {
+    font-size: 1.175rem;
+    position: relative;
+    font-weight: 500;
+    left: -10%;
+    border-radius: 0;
+    padding: 10px;
+    width: 12rem;
+}
+
+.carousel-control-prev-icon {
+    margin-left: -53%;
+    background-color: #070e1e;
+    margin-top: 76px;
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-next-icon {
+    margin-right: -53%;
+    background-color: #070e1e;
+    margin-top: 76px;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Icons section */
+
+.icon-section {
+    background-color: rgb(218, 44, 13);
+    position: relative;
+}
+
+.icon-section button {
+    border-radius: 0;
+    width: 15rem;
+    font-size: 1.25rem;
+    border: 2px solid rgb(189, 7, 7);
+    background-color: rgb(187, 4, 4);
+    color: white;
+}
+
+.icon-section button:hover {
+    border-radius: 0;
+    width: 15rem;
+    font-size: 1.25rem;
+    border: 2px solid rgb(189, 7, 7);
+    background-color: rgb(187, 4, 4);
+    color: white;
+}
+
+
+
+.icon-background {
+    background-color: white;
+    position: relative;
+    top: -3rem;
+    height: 14rem;
+}
+
+.icon-section .icons-list {
+    list-style-type: none;
+}
+
+.icon-section .icons-list li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.icon-section .icons-list a {
+    text-decoration: none;
+}
+
+.icon-section .icons-list li i {
+    color: red;
+    font-size: 3rem;
+}
+
+.icon-section .icons-list li h2 {
+    font-size: 1.5em;
+}
+
+.icon-footer p,
+button {
+    font-size: 1.375rem;
+}
+
+/* Explore Section */
+
+.explore-section-top h2 {
+    color: #06163a;
+    font-weight: 700;
+}
+
+.explore-section-top button {
+    width: 12rem;
+    border-radius: 0;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #06163a;
+}
+
+.explore-section-top button:hover {
+    color: #fff;
+    background-color: #06163a;
+}
+
+/* Explore Section Bottom */
+
+.explore-section-bottom {
+    position: relative;
+}
+
+.explore-section-bottom button {
+    position: relative;
+    top: -1.995rem;
+    margin-left: 34px;
+    width: 80%;
+    font-size: 1.5rem;
+    border-radius: 0;
+    color: #06163a;
+    background-color: #fff;
+    border: none;
+}
+
+.explore-section-bottom .btn:hover {
+    color: #06163a;
+    background-color: #fff;
+}
+
+/* Leader section */
+
+.leader-section{
+    padding-bottom: 5rem;
+}
+
+.leader-section .leader-head {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.para,
+.para-first {
+    font-size: 1.125rem;
+}
+
+.para-third {
+    padding-left: 1.15rem;
+}
+
+.para-third .p-1 {
+    font-size: 1.8rem;
+}
+
+.para-third .p-2 {
+    font-size: 1.2rem;
+}
+
+.para-fourth img {
+    width: 5.313rem;
+    color: orangered;
+}
+
+.para-fourth .play-text {
+    font-size: 1.5rem;
+}
+
+.para-third {
+    border-left: 6px solid red;
+}
+
+/* Leader Image Section */
+
+.leader-image {
+    position: relative;
+}
+
+.leader-image1 {
+    position: relative;
+    z-index: 3;
+}
+
+.leader-image2 {
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+    left: 30%;
+}
+
+.leader-image3 {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 42%;
+}
+
+/* Achievements section */
+.achievements {
+    background-image: url("../resources/bg01.png");
+    background-color: rgb(17, 17, 63);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.run {
+    color: white;
+}
+
+.large-text {
+    font-size: 2.5rem;
+}
+
+.small-text {
+    font-size: 1.5rem;
+}
+
+.achievements i {
+    color: red;
+}
+
+/* Council Section */
+
+/* Council Top Section */
+
+.council {
+    background-color: #f8f5fb;
+}
+
+.council-top h2 {
+    font-size: 2.5rem;
+}
+
+.council-top p {
+    font-size: 1.125rem;
+}
+
+/* Council leaders section */
+
+.card {
+    border-radius: none;
+}
+
+/* Partner-section */
+
+.partner-section {
+    background-color: #f8f5fb;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5 {
+    opacity: 0.5;
+}
+
+.image-1:hover,
+.image-2:hover,
+.image-3:hover,
+.image-4:hover,
+.image-5:hover {
+    opacity: 1;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #06163a;
+}
+
+.footer-first-part ul a {
+    text-decoration: none;
+}
+
+.footer-first-part ul {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.info-part {
+    font-size: 1.063rem;
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+}
+
+/* Footer Social Section */
+
+
+.footer-social-section ul a {
+    text-decoration: none;
+}
+
+.footer-social-section ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.footer-social-section ul li p {
+    font-size: 1.125rem;
+}
+
+
+.footer-social-section ul li a i {
+    font-weight: 400;
+    background-color: white;
+    height: 30x;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 1.325rem;
+    padding: 3px;
+}
+
+/* Footer Second Section */
+
+.footer-second-section {
+    color: #8c9ca6;
+}
+
+.footer-second-logo p {
+    margin-bottom: 7px !important;
+}
+
+.input-group .form-control,
+.btn {
+    border-radius: 0;
+    height: 50px;
+}
+
+.input-group .btn {
+    width: 100px;
+}
+
+/* Copyright Section */
+
+.copyright-section {
+    background-color: #010f31;
+}
